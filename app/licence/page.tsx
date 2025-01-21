@@ -365,7 +365,7 @@ export default function Licence() {
           <div>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Coordonnateur</h2>
             <p className="text-lg text-gray-700">
-              <strong>Nom Prénom :</strong> Pr. Zahid Noureddine
+              <strong>Pr. Zahid Noureddine</strong> 
             </p>
             <p className="text-lg text-gray-700">
               <strong>Rôle :</strong> Chef de département
