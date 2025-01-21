@@ -54,42 +54,42 @@ const licenceCourses = [
       {
         code: "M09",
         title: "Algèbre 2 - Structures, Polynômes et Fractions Rationnelles",
-        description: "Étude approfondie des structures algébriques, des propriétés des polynômes et des fractions rationnelles, y compris leur décomposition en éléments simples et leur application dans des contextes numériques et algébriques complexes&#8203;:contentReference[oaicite:0]{index=0}.",
+        description: "Étude approfondie des structures algébriques, des propriétés des polynômes et des fractions rationnelles, y compris leur décomposition en éléments simples et leur application dans des contextes numériques et algébriques complexes.",
       },
       {
         code: "M10",
         title: "Analyse 2 - Intégration",
-        description: "Exploration des techniques d'intégration, calcul des primitives, intégrales généralisées et résolution d'équations différentielles linéaires et non linéaires pour des applications variées&#8203;:contentReference[oaicite:1]{index=1}.",
+        description: "Exploration des techniques d'intégration, calcul des primitives, intégrales généralisées et résolution d'équations différentielles linéaires et non linéaires pour des applications variées.",
       },
       {
         code: "M11",
         title: "Électronique",
-        description: "Analyse des circuits numériques et analogiques, y compris les mémoires, les bascules et les compteurs. Approfondissement des transmissions de données et des modulations numériques&#8203;:contentReference[oaicite:2]{index=2}.",
+        description: "Analyse des circuits numériques et analogiques, y compris les mémoires, les bascules et les compteurs. Approfondissement des transmissions de données et des modulations numériques.",
       },
       {
         code: "M12",
         title: "Technologie du Multimédia",
-        description: "Conception et manipulation de contenus multimédias pour des usages pédagogiques et professionnels : traitement d'image, création de vidéos et d'animations, et intégration dans des environnements éducatifs numériques&#8203;:contentReference[oaicite:3]{index=3}.",
+        description: "Conception et manipulation de contenus multimédias pour des usages pédagogiques et professionnels : traitement d'image, création de vidéos et d'animations, et intégration dans des environnements éducatifs numériques.",
       },
       {
         code: "M13",
         title: "Architecture des Ordinateurs 2",
-        description: "Étude avancée des systèmes à processeur, des mémoires et des architectures spécialisées, avec une introduction aux technologies modernes de transmission de données&#8203;:contentReference[oaicite:4]{index=4}.",
+        description: "Étude avancée des systèmes à processeur, des mémoires et des architectures spécialisées, avec une introduction aux technologies modernes de transmission de données.",
       },
       {
         code: "M14",
         title: "Algorithmique et Programmation 2",
-        description: "Approfondissement des algorithmes avancés, y compris les graphes et les arbres, et leur mise en œuvre avec des outils modernes de programmation&#8203;:contentReference[oaicite:5]{index=5}.",
+        description: "Approfondissement des algorithmes avancés, y compris les graphes et les arbres, et leur mise en œuvre avec des outils modernes de programmation.",
       },
       {
         code: "M15",
         title: "Module Transversal 2",
-        description: "Renforcement des compétences numériques avancées et des aptitudes linguistiques, avec un accent sur les applications éducatives&#8203;:contentReference[oaicite:6]{index=6}.",
+        description: "Renforcement des compétences numériques avancées et des aptitudes linguistiques, avec un accent sur les applications éducatives.",
       },
       {
         code: "M16",
         title: "Action Éducative en Établissement Scolaire 2",
-        description: "Encadrement supervisé des activités pédagogiques avec une immersion pratique dans un environnement scolaire pour développer les compétences professionnelles&#8203;:contentReference[oaicite:7]{index=7}.",
+        description: "Encadrement supervisé des activités pédagogiques avec une immersion pratique dans un environnement scolaire pour développer les compétences professionnelles.",
       },
     ],
   },
@@ -99,42 +99,42 @@ const licenceCourses = [
         {
           code: "M17",
           title: "Analyse 3 - Formule de Taylor et Applications",
-          description: "Étude approfondie des séries de Taylor et des approximations asymptotiques, avec des applications dans la modélisation mathématique et la résolution de problèmes physiques complexes&#8203;:contentReference[oaicite:0]{index=0}.",
+          description: "Étude approfondie des séries de Taylor et des approximations asymptotiques, avec des applications dans la modélisation mathématique et la résolution de problèmes physiques complexes.",
         },
         {
           code: "M18",
           title: "Algèbre 3 - Espaces Vectoriels et Matrices",
-          description: "Exploration des bases, dimensions, applications linéaires, et diagonalisation des matrices avec des applications dans l'analyse des systèmes linéaires et la programmation linéaire&#8203;:contentReference[oaicite:1]{index=1}.",
+          description: "Exploration des bases, dimensions, applications linéaires, et diagonalisation des matrices avec des applications dans l'analyse des systèmes linéaires et la programmation linéaire.",
         },
         {
           code: "M19",
           title: "Système d’Exploitation 1",
-          description: "Introduction aux concepts fondamentaux des systèmes d'exploitation, y compris la gestion des processus, de la mémoire et des systèmes de fichiers, avec une mise en œuvre sur Linux et Windows&#8203;:contentReference[oaicite:2]{index=2}.",
+          description: "Introduction aux concepts fondamentaux des systèmes d'exploitation, y compris la gestion des processus, de la mémoire et des systèmes de fichiers, avec une mise en œuvre sur Linux et Windows.",
         },
         {
           code: "M20",
           title: "Bases de Données 1",
-          description: "Apprentissage des concepts fondamentaux des bases de données relationnelles : modélisation avec les diagrammes Entité-Association, requêtes SQL, et gestion des transactions&#8203;:contentReference[oaicite:3]{index=3}.",
+          description: "Apprentissage des concepts fondamentaux des bases de données relationnelles : modélisation avec les diagrammes Entité-Association, requêtes SQL, et gestion des transactions.",
         },
         {
           code: "M21",
           title: "Structures de Données",
-          description: "Étude des structures comme les listes chaînées, les arbres et les graphes, avec une mise en œuvre des algorithmes associés pour des applications efficaces en informatique&#8203;:contentReference[oaicite:4]{index=4}.",
+          description: "Étude des structures comme les listes chaînées, les arbres et les graphes, avec une mise en œuvre des algorithmes associés pour des applications efficaces en informatique.",
         },
         {
           code: "M22",
           title: "Module Transversal 3",
-          description: "Développement des compétences personnelles, communication professionnelle, et approfondissement linguistique pour une meilleure adaptabilité dans des environnements multiculturels&#8203;:contentReference[oaicite:5]{index=5}.",
+          description: "Développement des compétences personnelles, communication professionnelle, et approfondissement linguistique pour une meilleure adaptabilité dans des environnements multiculturels.",
         },
         {
           code: "M23",
           title: "Sciences de l’Éducation",
-          description: "Analyse des théories de l’apprentissage et de la sociologie éducative, avec un focus sur les stratégies pédagogiques adaptées aux divers environnements scolaires&#8203;:contentReference[oaicite:6]{index=6}.",
+          description: "Analyse des théories de l’apprentissage et de la sociologie éducative, avec un focus sur les stratégies pédagogiques adaptées aux divers environnements scolaires.",
         },
         {
           code: "M24",
           title: "Action Éducative en Établissement Scolaire 3",
-          description: "Participation active dans des contextes éducatifs réels, permettant aux étudiants d’acquérir des compétences pratiques en enseignement et en gestion de classe&#8203;:contentReference[oaicite:7]{index=7}.",
+          description: "Participation active dans des contextes éducatifs réels, permettant aux étudiants d’acquérir des compétences pratiques en enseignement et en gestion de classe.",
         },      
     ],
   },
@@ -334,9 +334,9 @@ export default function Licence() {
                 onClick={() => toggleSemester(semester.semester)}
                 className="w-full text-left bg-blue-600 text-white px-6 py-4 flex justify-between items-center hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition"
               >
-                <h3 className="text-2xl font-semibold">
+                <h4 className="text-2xl font-semibold">
                   Semestre {semester.semester}
-                </h3>
+                </h4>
                 <span className="text-xl">
                   {openSemesters.includes(semester.semester) ? "▲" : "▼"}
                 </span>

@@ -29,13 +29,13 @@ const professors: Professor[] = [
   {
     name: "Pr. Stitini Oumaima",
     title: "Maître de Conférences",
-    specialization: "Intelligence Artificielle, Big Data, Programmation",
+    specialization: "Intelligence Artificielle, Big Data, Programmation, Algorithmique, Web",
     imageUrl: "/placeholder.svg?height=200&width=200",
   },
   {
     name: "Pr. Nait Malek Youssef",
     title: "Maître de Conférences",
-    specialization: "Intelligence Artificielle, IoT, Big Data, Programmation",
+    specialization: "Intelligence Artificielle, IoT, Big Data, Programmation, Algorithmique",
     imageUrl: "/placeholder.svg?height=200&width=200",
   },
   {

@@ -56,7 +56,7 @@ export default function Master() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6">Master en Informatique</h1>
+      <h1 className="text-4xl font-bold mb-6">Master en Informatique (En Cours)</h1>
       <p className="text-xl mb-8">
         Notre programme de master offre une formation avancée en informatique, préparant les étudiants à la recherche et
         à l'industrie.
