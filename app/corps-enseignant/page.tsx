@@ -17,7 +17,7 @@ const professors: Professor[] = [
   {
     name: "Pr. Laannaoui My Driss",
     title: "Vice Chef de Département, Maître de Conférences Habilité",
-    specialization: "Réseaux et Systèmes Distribués, Système d’exploitation",
+    specialization: "Réseaux et Systèmes Distribués, Système d’exploitation, Intelligence Artificielle",
     imageUrl: "/placeholder.svg?height=200&width=200",
   },
   {
