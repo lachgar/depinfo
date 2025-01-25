@@ -30,7 +30,7 @@ const masterData = [
   {
     category: "S3 : Option - Technologies émergentes en éducation",
     courses: [
-      "M15.4 - Techniques de Programmation Avancées",
+      "M15.4 - Programmation Avancées et DevOps",
       "M16.4 - Bases de Données avancée et Business Intelligence (BI)",
       "M17.4 - Développement Web et multiplateforme",
       "M18.4 - Intelligence Artificielle avancée",
