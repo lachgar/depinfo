@@ -361,29 +361,28 @@ export default function Licence() {
         </div>
 
         {/* Colonne latérale : Informations du coordinateur */}
-        <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between">
-          <div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Coordonnateur</h2>
-            <p className="text-lg text-gray-700">
-              <strong>Pr. Zahid Noureddine</strong> 
-            </p>
-            <p className="text-lg text-gray-700">
-              <strong>Rôle :</strong> Chef de département
-            </p>
-            <p className="text-lg text-gray-700">
-              <strong>Email :</strong>{" "}
-              <a
-                href="mailto:no.zahid@uca.ma"
-                className="text-blue-600 hover:underline"
-              >
-                no.zahid@uca.ma
-              </a>
-            </p>
-          </div>
+        
+        <aside className="bg-white shadow-lg rounded-lg p-6">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Coordonnateur</h2>
+          <p className="text-lg text-gray-700">
+            <strong>Pr. Zahid Noureddine</strong>
+          </p>
+          <p className="text-lg text-gray-700">
+            <strong>Rôle :</strong> Coordonnateur
+          </p>
+          <p className="text-lg text-gray-700">
+            <strong>Email :</strong>{" "}
+            <a
+              href="mailto:no.zahid@uca.ma"
+              className="text-blue-600 hover:underline"
+            >
+              no.zahid@uca.ma
+            </a>
+          </p>
           <p className="mt-6 text-sm text-gray-500">
             Pour toute information supplémentaire, contactez le coordonnateur.
           </p>
-        </div>
+        </aside>
       </div>
 
       {/* Section : Passerelle */}
