@@ -96,7 +96,7 @@ export default function CorpsEnseignant() {
               </div>
               <div className="p-5 space-y-2">
                 <h2 className="text-lg font-bold text-gray-800 leading-snug">
-                  {professor.name}
+                  {professor.name.toUpperCase()}
                 </h2>
                 <p className="text-sm text-gray-500 italic">{professor.title}</p>
                 <p className="text-sm text-blue-700 font-medium leading-relaxed">
