@@ -50,7 +50,7 @@ export default function Home() {
                 href="/master"
                 className="text-blue-600 font-medium hover:underline"
               >
-                Master technologies émergentes en éducation
+                Master Technologies Emergentes en Education
               </Link>
             </li>
           </ul>

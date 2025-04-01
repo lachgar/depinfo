@@ -16,8 +16,8 @@ export default function Presentation() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-100 to-blue-50 px-6 py-16">
       <div className="max-w-7xl mx-auto p-10 bg-white shadow-2xl rounded-3xl">
-        <h1 className="text-5xl font-extrabold mb-14 text-center text-blue-800 tracking-tight">
-          🎓 Présentation du Département d'Informatique
+      <h1 className="text-4xl font-extrabold mb-12 text-center text-gray-800 hover:text-blue-600 transition duration-300">
+      🎓 Présentation du Département d'Informatique
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mb-20 items-center">
