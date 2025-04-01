@@ -80,39 +80,50 @@ export default function MasterPresentation() {
   };
 
   return (
-    <div className="container mx-auto px-6 py-12 bg-gray-100">
-      <header className="text-center mb-12">
-        <h1 className="text-5xl font-bold text-blue-600 mb-4">Didactique des Sciences et Ingénierie Éducative</h1>
-        <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
-          Découvrez les différents parcours offerts dans le cadre de ce master :
+    <div className="min-h-screen px-6 py-12 bg-gradient-to-br from-slate-100 to-blue-50">
+      <header className="text-center mb-16">
+        <h1 className="text-4xl font-extrabold mb-12 text-center text-gray-800 hover:text-blue-600 transition duration-300">
+          🎓 Didactique des Sciences & Ingénierie Éducative
+        </h1>
+        <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+          Ce master propose plusieurs parcours spécialisés alliant pédagogie et technologie :
         </p>
-        <ul className="list-disc list-inside text-left mt-4 text-gray-600 max-w-xl mx-auto">
+        <ul className="list-disc list-inside mt-6 text-left text-gray-700 text-base max-w-xl mx-auto space-y-2">
+          <li><strong>Technologies émergentes en éducation</strong></li>
           <li>Didactique des mathématiques</li>
           <li>Didactique des sciences physiques et chimie</li>
           <li>Didactique des sciences de la vie et de la terre</li>
-          <li> <strong>Technologies émergentes en éducation</strong></li>
         </ul>
       </header>
-
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        {/* Main content */}
-        <div className="lg:col-span-2 space-y-8">
+  
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+        {/* Contenu principal */}
+        <div className="lg:col-span-2 space-y-10">
           {masterData.map((section) => (
-            <div key={section.category} className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div
+              key={section.category}
+              className="bg-white border border-blue-100 shadow-xl rounded-2xl overflow-hidden"
+            >
               <button
                 onClick={() => toggleCategory(section.category)}
-                className="w-full text-left bg-blue-500 text-white px-6 py-4 flex justify-between items-center hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                className="w-full text-left bg-blue-600 text-white px-6 py-4 flex justify-between items-center hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition font-semibold text-lg rounded-t-2xl"
               >
-                <h2 className="text-2xl font-semibold">{section.category}</h2>
-                <span className="text-xl">{openCategory === section.category ? "▲" : "▼"}</span>
+                <span>{section.category}</span>
+                <span>{openCategory === section.category ? "▲" : "▼"}</span>
               </button>
+  
               {openCategory === section.category && (
-                <div className="p-6 space-y-4">
+                <div className="p-6 space-y-4 bg-slate-50">
                   <ul className="space-y-4">
                     {section.courses.map((course, index) => (
-                      <li key={index} className="bg-gray-50 p-4 rounded-lg shadow-sm">
-                        <h3 className="text-lg font-bold text-blue-700">{course}</h3>
-                        <p className="text-gray-700 mt-2">
+                      <li
+                        key={index}
+                        className="bg-white p-5 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition"
+                      >
+                        <h3 className="text-blue-700 text-lg font-semibold mb-1">
+                          {course}
+                        </h3>
+                        <p className="text-gray-600 text-sm leading-relaxed">
                           {courseDescriptions[course.split(" - ")[0]] || "Description non disponible."}
                         </p>
                       </li>
@@ -123,17 +134,17 @@ export default function MasterPresentation() {
             </div>
           ))}
         </div>
-
-        {/* Coordinator section */}
-        <aside className="bg-white shadow-lg rounded-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Coordonnateur</h2>
-          <p className="text-lg text-gray-700">
+  
+        {/* Coordonnateur */}
+        <aside className="bg-white shadow-xl rounded-2xl p-6 border border-blue-100 h-fit">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">👤 Coordonnateur</h2>
+          <p className="text-lg text-gray-700 mb-1">
             <strong>Pr. My Driss Laannaoui</strong>
           </p>
-          <p className="text-lg text-gray-700">
+          <p className="text-md text-gray-700 mb-1">
             <strong>Rôle :</strong> Coordonnateur
           </p>
-          <p className="text-lg text-gray-700">
+          <p className="text-md text-gray-700 mb-2">
             <strong>Email :</strong>{" "}
             <a
               href="mailto:d.laanaoui@uca.ma"
@@ -142,8 +153,8 @@ export default function MasterPresentation() {
               d.laanaoui@uca.ma
             </a>
           </p>
-          <p className="mt-6 text-sm text-gray-500">
-            Pour toute information supplémentaire, contactez le coordonnateur.
+          <p className="mt-6 text-sm text-gray-500 leading-relaxed">
+            Pour toute information complémentaire, n’hésitez pas à le contacter directement.
           </p>
         </aside>
       </div>

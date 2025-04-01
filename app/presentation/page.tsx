@@ -14,131 +14,71 @@ export default function Presentation() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 px-6 py-12">
-      <div className="max-w-7xl mx-auto p-8 bg-white shadow-lg rounded-lg">
-        <h1 className="text-4xl font-extrabold mb-10 text-center text-gray-800 hover:text-blue-600 transition">
-          Présentation du Département d'Informatique
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 to-blue-50 px-6 py-16">
+      <div className="max-w-7xl mx-auto p-10 bg-white shadow-2xl rounded-3xl">
+        <h1 className="text-5xl font-extrabold mb-14 text-center text-blue-800 tracking-tight">
+          🎓 Présentation du Département d'Informatique
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mb-16 items-center">
-          {/* Photo: 40% */}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mb-20 items-center">
           <div className="md:col-span-2 flex justify-center">
-            <div className="overflow-hidden rounded-lg shadow-lg max-w-full">
+            <div className="overflow-hidden rounded-2xl shadow-xl">
               <Image
-                src="depinfo.jpg" // Chemin vers votre image
+                src="/depinfo.jpg"
                 alt="Formation des Enseignants"
-                width={400} // Largeur adaptée pour une mise en page compacte
+                width={400}
                 height={300}
-                className="transition-transform duration-300 transform hover:scale-105 object-cover" // Maintient la couverture dans l’espace défini
+                className="transition-transform duration-300 transform hover:scale-105 object-cover"
               />
             </div>
           </div>
 
-          {/* Description: 60% */}
-          <div className="md:col-span-3 space-y-6 text-gray-700 leading-relaxed">
-            <p className="text-lg">
-              Le département met un point d'honneur à former des enseignants qualifiés dans le domaine de l'informatique.
-              Cette formation combine des compétences pédagogiques solides avec une expertise technique avancée.
+          <div className="md:col-span-3 space-y-6 text-gray-700 leading-relaxed text-lg">
+            <p>
+              Le département forme des enseignants qualifiés en informatique en associant des compétences pédagogiques
+              solides à une expertise technique avancée.
             </p>
-            <p className="text-lg">
-              Grâce à un programme structuré, nos futurs enseignants maîtrisent non seulement les concepts fondamentaux
-              de l'informatique, mais aussi les techniques d'enseignement interactif et d'adaptation aux besoins des élèves.
+            <p>
+              Grâce à un programme structuré, les futurs enseignants maîtrisent les fondements de l'informatique ainsi
+              que des méthodes d'enseignement innovantes adaptées aux besoins des apprenants.
             </p>
           </div>
         </div>
 
-
-
-        <PresentationSection title="Notre Programme Pédagogique">
+        <PresentationSection title="🎓 Notre Programme Pédagogique">
           <div className="space-y-6 text-gray-700">
             <p className="text-lg leading-relaxed">
-              Notre formation repose sur une approche équilibrée entre théorie et
-              pratique, mettant en avant :
+              La formation adopte une approche équilibrée entre théorie et pratique :
             </p>
             <ul className="list-disc pl-8 space-y-4">
-              <li className="flex items-start space-x-3">
-                <span className="text-blue-600 font-semibold">•</span>
-                <span>
-                  <strong>La didactique de l'informatique :</strong> Méthodes
-                  d'enseignement adaptées aux concepts abstraits de programmation et
-                  d'algorithmique.
-                </span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <span className="text-blue-600 font-semibold">•</span>
-                <span>
-                  <strong>L'intégration des outils numériques :</strong> Utilisation des
-                  technologies éducatives pour enrichir l'expérience d'apprentissage.
-                </span>
-              </li>
-              <li className="flex items-start space-x-3">
-                <span className="text-blue-600 font-semibold">•</span>
-                <span>
-                  <strong>La gestion de classe et la pédagogie différenciée :</strong>{" "}
-                  Répondre aux besoins d'apprenants de niveaux variés.
-                </span>
-              </li>
+              <li><strong>Didactique de l'informatique :</strong> Méthodes d'enseignement adaptées aux concepts abstraits.</li>
+              <li><strong>Outils numériques :</strong> Technologies éducatives pour enrichir l'apprentissage.</li>
+              <li><strong>Gestion de classe :</strong> Pédagogie différenciée pour répondre à la diversité des profils.</li>
             </ul>
 
-            <div className="mt-8">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Les Spécialités Techniques
-              </h2>
-              <p className="text-lg leading-relaxed">
-                En complément de la pédagogie, notre programme met un accent particulier
-                sur les compétences techniques pour préparer les enseignants à former
-                efficacement les apprenants dans des domaines variés et en pleine
-                évolution :
-              </p>
+            <div className="mt-10">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">💡 Spécialités Techniques</h2>
               <ul className="list-disc pl-8 space-y-4">
-                <li className="flex items-start space-x-3">
-                  <span className="text-green-600 font-semibold">•</span>
-                  <span>
-                    <strong>Développement Web et Mobile :</strong> Conception et
-                    réalisation d'applications modernes avec des frameworks comme React,
-                    Angular, et Flutter.
-                  </span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <span className="text-green-600 font-semibold">•</span>
-                  <span>
-                    <strong>Réseaux et Systèmes Distribués :</strong> Maîtrise des
-                    protocoles réseau (TCP/IP, HTTP) et des architectures cloud pour
-                    répondre aux besoins des infrastructures modernes.
-                  </span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <span className="text-green-600 font-semibold">•</span>
-                  <span>
-                    <strong>Intelligence Artificielle :</strong> Développement de
-                    solutions basées sur l'apprentissage supervisé et non supervisé,
-                    réseaux neuronaux et vision par ordinateur.
-                  </span>
-                </li>
-                <li className="flex items-start space-x-3">
-                  <span className="text-green-600 font-semibold">•</span>
-                  <span>
-                    <strong>Big Data :</strong> Analyse, traitement et visualisation de
-                    grandes quantités de données avec des outils comme Hadoop, Spark et
-                    Python.
-                  </span>
-                </li>
+                <li><strong>Développement Web & Mobile :</strong> React, Angular, Flutter.</li>
+                <li><strong>Réseaux & Cloud :</strong> TCP/IP, HTTP, infrastructures modernes.</li>
+                <li><strong>Intelligence Artificielle :</strong> Apprentissage machine, vision, NLP.</li>
+                <li><strong>Big Data :</strong> Hadoop, Spark, traitement massif de données.</li>
               </ul>
             </div>
           </div>
         </PresentationSection>
 
-
-        <PresentationSection title="Nos Objectifs">
+        <PresentationSection title="🎯 Nos Objectifs">
           <div className="mb-6">
             <div className="flex border-b border-gray-200">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
-                  className={`px-6 py-3 text-sm font-medium ${activeTab === tab.id
-                    ? "border-b-4 border-blue-500 text-blue-600"
-                    : "text-gray-500 hover:text-blue-500 transition"
-                    }`}
+                  className={`px-6 py-3 text-sm font-medium ${
+                    activeTab === tab.id
+                      ? "border-b-4 border-blue-500 text-blue-600"
+                      : "text-gray-500 hover:text-blue-500 transition"
+                  }`}
                   onClick={() => setActiveTab(tab.id)}
                 >
                   {tab.label}
@@ -146,85 +86,55 @@ export default function Presentation() {
               ))}
             </div>
           </div>
-          <div className="mt-6 text-gray-700">
+          <div className="mt-6 text-gray-700 text-lg">
             {activeTab === "mission" && (
               <p>
-                Former des pédagogues en informatique capables d'inspirer et de guider la prochaine génération de
-                professionnels tout en adaptant les pratiques éducatives aux évolutions technologiques.
+                Former des pédagogues en informatique capables d’inspirer, guider et innover dans l’enseignement
+                secondaire, en intégrant les évolutions technologiques.
               </p>
             )}
             {activeTab === "vision" && (
               <p>
-                Devenir un centre d'excellence dans la formation pédagogique en informatique, où l'enseignement et la
-                recherche convergent pour produire un impact éducatif durable.
+                Être un pôle d’excellence en formation pédagogique en informatique, conjuguant expertise technique et
+                engagement éducatif durable.
               </p>
             )}
             {activeTab === "valeurs" && (
               <ul className="list-disc pl-6 space-y-2">
-                <li>Innovation pédagogique et excellence académique</li>
-                <li>Adaptabilité aux évolutions technologiques</li>
-                <li>Collaboration et apprentissage continu</li>
-                <li>Éthique et responsabilité professionnelle</li>
+                <li>Innovation, excellence pédagogique</li>
+                <li>Agilité face aux avancées technologiques</li>
+                <li>Apprentissage collaboratif et continu</li>
+                <li>Éthique, responsabilité professionnelle</li>
               </ul>
             )}
           </div>
         </PresentationSection>
 
-        <PresentationSection title="Nos Domaines d'Expertise">
+        <PresentationSection title="🧠 Domaines d'Expertise">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-blue-600 transition">
-                Didactique et pédagogie
-              </h3>
-              <p>
-                Développement de méthodes d'enseignement adaptées à l'informatique, gestion de classe, et pédagogie
-                différenciée.
-              </p>
+              <h3 className="text-lg font-semibold mb-2 text-blue-800">Didactique et pédagogie</h3>
+              <p>Enseignement, gestion de classe, pédagogie différenciée, numérique éducatif.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-blue-600 transition">
-                Développement informatique
-              </h3>
-              <p>
-                Programmation, algorithmique, génie logiciel et systèmes d'information pour une expertise technique
-                complète.
-              </p>
+              <h3 className="text-lg font-semibold mb-2 text-blue-800">Développement informatique</h3>
+              <p>Algorithmique, génie logiciel, systèmes d’information.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-blue-600 transition">
-                Développement Web et Mobile
-              </h3>
-              <p>
-                Création d'applications web modernes (React, Angular) et mobiles (React Native, Flutter) pour répondre
-                aux besoins du marché.
-              </p>
+              <h3 className="text-lg font-semibold mb-2 text-blue-800">Web et Mobile</h3>
+              <p>Applications modernes (React, Angular, Android, Flutter).</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-blue-600 transition">
-                Microservices et DevOps
-              </h3>
-              <p>
-                Conception d'architectures scalables avec des microservices, intégration de pipelines CI/CD pour une
-                livraison continue.
-              </p>
+              <h3 className="text-lg font-semibold mb-2 text-blue-800">Microservices & DevOps</h3>
+              <p>Architecture modulaire, CI/CD, pipelines de déploiement automatisés.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-blue-600 transition">
-                Big Data et Analyse de Données
-              </h3>
-              <p>
-                Traitement et analyse des grandes masses de données avec Hadoop, Spark, et Python pour des insights
-                stratégiques.
-              </p>
+              <h3 className="text-lg font-semibold mb-2 text-blue-800">Big Data & Analyse</h3>
+              <p>Volume, vitesse, variété – Hadoop, Spark, visualisation intelligente.</p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-2 text-gray-800 hover:text-blue-600 transition">
-                Réalité Virtuelle et Augmentée (VR/AR)
-              </h3>
-              <p>
-                Développement d'environnements immersifs et interactifs pour la formation, l'éducation, et les
-                industries.
-              </p>
+              <h3 className="text-lg font-semibold mb-2 text-blue-800">Réalité Virtuelle et Augmentée</h3>
+              <p>Création d’environnements immersifs pour l’apprentissage et la simulation.</p>
             </div>
           </div>
         </PresentationSection>

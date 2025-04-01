@@ -2,58 +2,55 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 to-blue-50 py-16 px-6 sm:px-8 lg:px-20">
       {/* Main Title */}
-      <div className="text-center mb-12">
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-800">
-          Bienvenue au Département d'Informatique
+      <div className="text-center mb-16">
+        <h1 className="text-5xl font-extrabold text-blue-800 tracking-tight mb-4">
+          🎓 Bienvenue au Département d'Informatique
         </h1>
-        <p className="text-base sm:text-lg mt-4 text-gray-600">
-          École Normale Supérieure, Université Cadi Ayyad
+        <p className="text-lg text-gray-600">
+          École Normale Supérieure · Université Cadi Ayyad · Marrakech
         </p>
       </div>
 
       {/* Responsive Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Présentation Section */}
-        <section className="bg-white shadow-lg rounded-lg p-6 flex flex-col justify-between">
+        <section className="bg-white shadow-xl rounded-2xl p-8 flex flex-col justify-between border border-blue-100">
           <div>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Présentation
+              📘 Présentation
             </h2>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              Notre département offre une formation de qualité en informatique, combinant théorie et pratique pour
-              préparer les étudiants aux défis du monde numérique.
+            <p className="text-gray-700 leading-relaxed">
+              Le département propose une formation de haut niveau en informatique, mêlant théorie rigoureuse et pratique innovante pour former les pédagogues et les experts de demain.
             </p>
           </div>
           <Link
             href="/presentation"
-            className="inline-block px-6 py-2 bg-blue-600 text-white font-medium rounded-lg shadow hover:bg-blue-700 transition duration-300 mt-4 self-start"
+            className="mt-6 inline-block px-6 py-2 bg-blue-600 text-white font-medium rounded-lg shadow hover:bg-blue-700 transition duration-300 self-start"
           >
             En savoir plus
           </Link>
         </section>
 
         {/* Formations Section */}
-        <section className="bg-white shadow-lg rounded-lg p-6">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">
-            Formations
-          </h2>
-          <ul className="list-disc list-inside text-gray-600 space-y-4">
+        <section className="bg-white shadow-xl rounded-2xl p-8 border border-blue-100">
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">🎓 Formations</h2>
+          <ul className="list-disc list-inside text-gray-700 space-y-4">
             <li>
               <Link
                 href="/licence"
-                className="text-blue-600 font-medium hover:underline transition duration-300"
+                className="text-blue-600 font-medium hover:underline"
               >
-                Licence en Informatique
+                Licence d'Éducation : Spécialité Informatique
               </Link>
             </li>
             <li>
               <Link
                 href="/master"
-                className="text-blue-600 font-medium hover:underline transition duration-300"
+                className="text-blue-600 font-medium hover:underline"
               >
-                Master en Informatique
+                Master technologies émergentes en éducation
               </Link>
             </li>
           </ul>
