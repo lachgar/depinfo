@@ -38,7 +38,7 @@ const masterData = [
     ],
   },
   {
-    category: "S4 : Projet de Fin d'Études (PFE)",
+    category: "S4 : Option - Technologies émergentes en éducation",
     courses: [
       "M20 - LANGUES ETRANGERES 3 (Anglais ; Français)",
       "M21 - Culture and Art skills",
