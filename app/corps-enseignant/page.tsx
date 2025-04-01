@@ -82,13 +82,13 @@ export default function CorpsEnseignant() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {professors.map((professor) => (
             <div
-              key={professor.name.toLowerCase()}
+              key={professor.name}
               className="bg-white rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
             >
               <div className="relative h-48 rounded-t-2xl overflow-hidden">
                 <Image
                   src={professor.imageUrl}
-                  alt={professor.name}
+                  alt={professor.name.toUpperCase()}
                   layout="fill"
                   objectFit="cover"
                   className="transition duration-300 ease-in-out hover:scale-105"
