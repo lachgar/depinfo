@@ -34,14 +34,14 @@ const masterData = [
       "M16.4 - Bases de Données avancée et Business Intelligence (BI)",
       "M17.4 - Développement Web et multiplateforme",
       "M18.4 - Intelligence Artificielle avancée",
-      "M19.4 - Réalité Augmentée et Virtuelle en Éducation",
-      "M20 - LC2 (1/3 Anglais ; 1/3 Français ; 1/3 Culture)",
-      "M21 - Langues étrangères 3",
+      "M19.4 - Réalité Augmentée et Virtuelle en Éducation"
     ],
   },
   {
     category: "S4 : Projet de Fin d'Études (PFE)",
     courses: [
+      "M20 - LANGUES ETRANGERES 3 (Anglais ; Français)",
+      "M21 - Culture and Art skills",
       "M22 - PFE",
     ],
   },
@@ -68,7 +68,7 @@ const courseDescriptions = {
   "M18.4": "Exploration de concepts avancés en intelligence artificielle, comme le deep learning et le traitement du langage naturel.",
   "M19.4": "Introduction à la réalité augmentée et virtuelle et à leurs applications dans l'éducation.",
   "M20": "Renforcement des compétences linguistiques et culturelles en anglais et en français.",
-  "M21": "Acquisition de compétences avancées en communication multilingue.",
+  "M21": "Comprendre l’histoire du Maroc, s’identifier à son patrimoine culturel et artistique, développer l’intelligence créative des étudiants à travers l’artisanat et diverses formes d’expression, tout en les engageant dans la création d’une œuvre d’art collective.",
   "M22": "Projet final intégrant toutes les compétences acquises pour résoudre un problème réel.",
 };
 
