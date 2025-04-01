@@ -121,7 +121,7 @@ export default function MasterPresentation() {
                         className="bg-white p-5 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition"
                       >
                         <h3 className="text-blue-700 text-lg font-semibold mb-1">
-                          {course}
+                          {course.toLowerCase()}
                         </h3>
                         <p className="text-gray-600 text-sm leading-relaxed">
                           {courseDescriptions[course.split(" - ")[0]] || "Description non disponible."}
