@@ -25,7 +25,7 @@ const professors: Professor[] = [
   {
     name: "Pr. Lahoussaine Ait Ounejjar",
     title: "Maître de Conférences Habilité",
-    specialization: "Réseaux et Systèmes Distribués, Intelligence Artificielle, IoT",
+    specialization: "Réseaux et Systèmes Distribués, Didactique de l’Informatique",
     imageUrl: "/placeholder.svg",
   },
   {
