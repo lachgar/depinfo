@@ -82,7 +82,7 @@ export default function CorpsEnseignant() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {professors.map((professor) => (
             <div
-              key={professor.name}
+              key={professor.name.toLowerCase()}
               className="bg-white rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
             >
               <div className="relative h-48 rounded-t-2xl overflow-hidden">
