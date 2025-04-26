@@ -23,6 +23,13 @@ const professors: Professor[] = [
     imageUrl: "/placeholder.svg",
   },
   {
+    name: "Pr. Lachgar Mohamed",
+    title: "Maître de Conférences Habilité",
+    specialization:
+      "Génie Logiciel, Programmation Web Mobile, Architecture Microservices, DevOps, Intelligence Artificielle",
+    imageUrl: "/placeholder.svg",
+  },
+  {
     name: "Pr. Lahoussaine Ait Ounejjar",
     title: "Maître de Conférences Habilité",
     specialization: "Réseaux et Systèmes Distribués, Didactique de l’Informatique",
@@ -50,13 +57,6 @@ const professors: Professor[] = [
     name: "Pr. Nait Malek Youssef",
     title: "Maître de Conférences",
     specialization: "Intelligence Artificielle, IoT, Big Data, Programmation, Algorithmique",
-    imageUrl: "/placeholder.svg",
-  },
-  {
-    name: "Pr. Lachgar Mohamed",
-    title: "Maître de Conférences Habilité",
-    specialization:
-      "Génie Logiciel, Programmation Web Mobile, Architecture Microservices, DevOps, Intelligence Artificielle",
     imageUrl: "/placeholder.svg",
   },
   {
